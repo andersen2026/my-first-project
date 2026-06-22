@@ -2132,7 +2132,6 @@
                 document.getElementById('crossBorderArrow').classList.toggle('open');
                 return;
             }
-            // 点击主菜单时：如果子菜单是折叠的，展开它并选中第一个子项
             if (!document.getElementById('crossBorderSub').classList.contains('open')) {
                 document.getElementById('crossBorderSub').classList.add('open');
                 document.getElementById('crossBorderArrow').classList.add('open');
